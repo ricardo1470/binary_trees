@@ -105,6 +105,16 @@ Perfect: 0
 | [18. Uncle](./18-binary_tree_uncle.c) | function that finds the uncle of a node  |
 
 ---
+> ## Built with
+this project was built in `C language`
+
+---
+> ## Expressions of Gratitude
+---
+* `Tell others about this project`
+* `Invite a beer` 🍺 `or a coffee` ☕ `to someone on the team.`
+
+---
 > ## Contact 💬
 > Ricardo Camayo
 ### | [twitter](https://twitter.com/RICARDO1470) | [linkedin](https://www.linkedin.com/in/ricardo-alfonso-camayo/) | [mail](1466@holbertonschool.com) | [github](https://github.com/ricardo1470/README/blob/master/README.md) |
