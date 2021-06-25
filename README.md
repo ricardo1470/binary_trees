@@ -1,6 +1,68 @@
+<a href="Binary Trees image"><img src="https://miro.medium.com/max/16000/1*CMGFtehu01ZEBgzHG71sMg.png" align="middle" width="800" height="400"></a>
+---
+
 > # 0x1D. C - Binary trees
 ---
-|   |   |
+
+> ## Table of Contents
+
+* [Description](#description)
+* [Requirements](#requirements)
+* [Installation](#installation)
+* [Compilation](#Compilation)
+---
+
+
+## Description
+---
+In computer science, a binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. A recursive definition using just set theory notions is that a (non-empty) binary tree is a tuple (L, S, R), where L and R are binary trees or the empty set and S is a singleton set containing the root. Some authors allow the binary tree to be the empty set as well
+
+## Requirements
+---
+simple_shell is designed to run in the `Ubuntu 14.04 LTS` linux environment and to be compiled using the GNU compiler collection v. `gcc 4.8.4` with flags`-Wall, -Werror, -Wextra, and -pedantic.`
+
+## Installation
+---
+Clone this repository: `"https://github.com/ricardo1470/binary_trees"`
+   * Change directories into the repository: `binary_trees`
+   * Compile: see installation instructions later
+
+## Compilation
+---
+* Compile: In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.c`.
+`gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c X-main.c binary_tree_file.c -o 0-node`
+* Our main files will include your main header file (`binary_trees.h`): `#include binary_trees.h`
+
+## Example of usage
+---
+* function that goes through a binary tree using pre-order traversal
+```c
+./6-pre
+       .-------(098)-------.
+  .--(012)--.         .--(402)--.
+(006)     (056)     (256)     (512)
+98
+12
+6
+56
+402
+256
+512
+```
+
+*  function that measures the depth of a node in a binary tree
+```c
+./10-depth
+  .-------(098)--.
+(012)--.       (128)--.
+     (054)          (402)
+Depth of 98: 0
+Depth of 128: 1
+Depth of 54: 2
+```
+
+---
+| **Filename** | **Description** |
 |---|---|
 | [0. New node](./0-binary_tree_node.c) | function that creates a binary tree node  |
 | [1. Insert left](./1-binary_tree_insert_left.c) | function that inserts a node as the left-child of another node  |
